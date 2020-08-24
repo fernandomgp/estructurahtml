@@ -4,10 +4,31 @@
 <html>
     <!--Cabeza de la Web-->
     <head>
-        
+        <!--Se utiliza para atributos genericos mas usados son UTF-8 y Viewport que es para codigo ascii y la adaptacion para cualquier dispositivo
+            asi como: Author y Copyright, Description, Keywords,Refresh entre otros-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Para el titulo de la Web-->
+        <title>Estructura HTML</title>
+        <!--Abreviador de enlaces 1 por documeto-->
+        <!--target para la aparición de las paginas relacionadas por defecto "_self" para otra "_blank"-->
+        <base href="https://i.ibb.co/" target="_blank">
+        <!--Para añadir documentos por defecto a la pagina con rel y otros codigos mas href el link de donde se quiere usar-->
+        <link rel="stylesheet" href="">
+        <!--Etique style usado para la hoja de estilo del documento-->
+        <style></style>
+        <!--Enlazar un javascript de un documento externo-->
+        <script src="js/intro.js" ></script>
     </head>
     <!--Cuerpo de la Web-->
     <body>
-       
+        <!--Uso de javascript en el mismo html-->
+        <script type="text/javascript">
+            alert("Este es la estructura por javascript");
+        </script>
+        <!--Aparece cuando no tiene activado JavaScript la pagina-->
+        <noscript>
+            <p>Para paginas que no tenga JavaScript</p>
+        </noscript>
     </body>
 </html>
