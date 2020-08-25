@@ -34,38 +34,90 @@
 
         <!--Aparece cuando no tiene activado JavaScript la pagina-->
         <noscript>
+            <!-- Crecion de parrafos en cualquier lado  -->
             <p>Para paginas que no tenga JavaScript</p>
+            
         </noscript>
         <!-- Cabecera de la página-->
         <header>
             <!-- Menu de navegación -->
             <nav>
 
+                <!-- Lista en Orden que dentro debe estar un List Item -->
+                <ol> 
+                    <!-- Lista de item segun el ordenado anteriormente   -->
+                    <li>List Item 1</li>
+                    <li>List Item 2</li>
+                    <li>List Item 3</li>
+                </ol>
+                <!-- Lista en desorden que dentro debe estar un List Item -->
+                <ul>
+                    <!-- Lista de item segun el ordenado anteriormente -->
+                    <li>List Item 1</li>
+                    <li>List Item 2</li>
+                    <li>List Item 3</li>
+                </ul>
             </nav>
         </header>
         <!-- El elemento de HTML section representa una sección genérica de un documento puede contener varios article,header,h1-h6 -->
         <section>
-        
+            <!-- Creación de parrafos en cualquier lado -->
+            <p>
+                Parrafo
+                <!-- Linea horizontal -->
+                <hr>
+            </p>
             <!--Articulos independientes-->
             <article>
 
                 <!-- Titulos en forma de jerarquia -->
                 <h1>
+                    <!-- Hace respetar del como esta en el mismo codigo. -->
+                    <pre>
                     Contenido de los titulos.
-                    Mayor jerarquia H1 y Menor H6.
+                    Mayor jerarquia H1
+                    Menor H6.
+                    </pre>
                 </h1>
                 Contenido del Article.
             </article>
 
             <!--Articulos independientes-->
             <article>
-                Contenido del Article.
+
+                <!-- Descripción de la lista, donde pondra la palabra y su definición -->
+                <dl>
+                    <!-- Descripcion del titulo -->
+                    <dt>TITULO DE LA LISTA A DESCRIBIR</dt> 
+                    <!-- Definión del titulo definido -->
+                    <dd>
+                        Aquie es donde va la definición.
+                    </dd>
+                </dl>
             </article>
 
             <!-- El elemento HTML representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento -->
             <aside>
                 Contenido de aside.
             </aside>
+            <!--Articulos independientes-->
+            <article>
+               
+                <!-- Contenido de todo tipo de imagen y video mayormente. -->
+               <figure>
+                <!-- Insertado de imagen o video. -->
+                <img src="" alt="">
+
+                <!-- Pequeña descripcion de la imagen puede ir al inicio o al final pero siempre dentro de la etiqueta figure. -->
+                <figcaption>
+                    Contenido del figcaptión.
+                </figcaption>
+               </figure>
+            </article>
+            <!-- Division para el contenido de imagenes usualmente -->
+            <div>
+                Contenido del div.
+            </div>
         </section>
 
         <!-- Pie de página -->
